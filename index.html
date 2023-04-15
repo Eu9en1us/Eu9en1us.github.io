@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/css/main.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
     <script>
       tailwind.config = {
         theme: {
@@ -97,12 +100,12 @@
       </section>
       <section>
         <ul
-          class="text-custom-gray-900 flex justify-center items-end py-10 space-x-[100px]"
-        >
-          <li class="flex flex-col">
+          class="text-custom-gray-900 flex justify-center items-end py-10 space-x-[100px]" style="margin: 0 auto;">
+
+          <li class="flex flex-col" style="padding-left: 10px;">
             <img
               src="/img/icons/wheat.svg"
-              class="self-center w-[20px]"
+              class="self-center w-[50px]"
               alt="wheat"
             /><span class="text-xl mt-5">Wheat</span>
           </li>
@@ -175,10 +178,8 @@
           </div>
         </div>
         <div class="flex justify-between wrap">
-          <div class="w-[540px] h-[500px] drop-shadow-3xl">
-            <img src="/img/content/plants.jpg" alt="" />
-          </div>
-          <div class="text-custom-gray-900 max-w-[500px]">
+          
+          <div class="text-custom-gray-900 max-w-[500px]" style="float: right">
             <div class="relative pb-[62px]">
               <h2
                 class="text-[64px] font-bold after:content-['*****'] after:absolute after:text-[20px] after:bottom-6 after:left-0 after:text-custom-green"
@@ -193,6 +194,9 @@
               chain partners.
             </p>
           </div>
+          <div class="w-[540px] h-[500px] drop-shadow-3xl" style="float: left">
+            <img src="/img/content/plants.jpg" alt="" />
+          </div> 
         </div>
       </section>
       <section class="bg-custom-gray-100">
@@ -307,5 +311,7 @@
         AGRIDERA SEEDS & AGRICULTURE LTD. © 2020
       </div>
     </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
