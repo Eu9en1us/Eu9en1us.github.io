@@ -6,6 +6,7 @@
   width: 1100px;
   margin: 0 auto;
 }
+
 /*Конец .css основной страницы*/
 
 
@@ -2547,7 +2548,7 @@ a:link {
   opacity: 1;
   position: absolute;
   top: 1643px;
-  left: 608px;
+  left: 40%;
   overflow: hidden;
 }
 .v117_368 {
