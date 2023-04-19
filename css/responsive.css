@@ -1518,7 +1518,7 @@
         }
         .v53_10 {
             width: 100%;
-            max-width: 812px;
+            max-width: 812px!important;
             height: 8105px;
             background: rgba(251,240,240,1);
             opacity: 1;
